@@ -1,0 +1,471 @@
+body.x-forbid-roll {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+ul.x-nav {
+    background-color: #494949;
+}
+
+ul.x-nav > li:hover {
+    cursor: pointer;
+    background: #F98400;
+}
+
+ul.x-nav li {
+    padding: 15px 40px;
+    display: inline-block;
+    color: #ffffff;
+}
+
+/* MODAL */
+
+.x-dialog {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 100001;
+}
+
+.modal-dialog-mask {
+    position: absolute;
+    top: 0;
+    z-index: 100001;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    background: #000000;
+}
+
+.modal-dialog {
+    position: absolute;
+    left: 2.5%;
+    top: 0;
+    width: 95%;
+    /*    height: 600px;*/
+    z-index: 1111111111;
+}
+
+.modal-small {
+    top: 10%;
+    width: 40%;
+    left: 30%;
+}
+
+body .sc-group {
+    /*    position: relative;*/
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+body .sc-group a.exportExcel {
+    line-height: 2.5;
+    display: inline-block;
+    margin-top: -1px;
+}
+
+body .sc-group .btn {
+    /*    position: relative;*/
+    background: #fff;
+    min-width: 60px;
+    height: 32px !important;
+    line-height: 30px;
+    border: 1px solid #e6e6e6;
+    border-left-width: 0;
+    border-radius: 0;
+    background-clip: padding-box;
+}
+
+.sc-group .sc-glt {
+    border: 1px solid #dcdcdc;
+    padding: 6px;
+    background: #ffffff;
+    border-radius: 4px;
+}
+
+.sc-group .sc-glt > span {
+    margin-left: 5px;
+}
+
+.dropdown-menu {
+    min-width: 160px;
+}
+
+#fbox_peo_yh input[type='text'],
+#fbox_area_manage input[type='text'],
+#fbox_area_yh input[type='text'],
+#fbox_words_yh input[type='text'],
+#fbox_add_words input[type='text'],
+#fbox_words_catparse input[type='text'],
+#searchcntfbox_area_manage select,
+#searchcntfbox_peo_yh select,
+#searchcntfbox_area_yh select,
+#searchcntfbox_words_yh select,
+#searchcntfbox_add_words select,
+#searchcntfbox_words_catparse select {
+    display: inline-block;
+    height: 32px;
+    font-size: 12px;
+    line-height: 1.224489797;
+    padding: 0 9px;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #fff;
+    background-image: none;
+    border-radius: 4px;
+    background-clip: padding-box;
+    box-sizing: border-box;
+    box-shadow: none;
+    -webkit-transition: none;
+    transition: none;
+}
+
+#fbox_peo_yh input[type='button'],
+#fbox_area_manage input[type='button'],
+#fbox_area_yh input[type='button'],
+#fbox_words_yh input[type='button'],
+#fbox_add_words input[type='button'],
+#fbox_words_catparse input[type='button'] {
+    padding: 4px 10px 6px 10px;
+    font-size: 14px;
+}
+
+#fbox_peo_yh table tbody tr td,
+#fbox_area_manage table tbody tr td,
+#fbox_words_yh table tbody tr td,
+#fbox_area_yh table tbody tr td,
+#fbox_add_words table tbody tr td,
+#fbox_words_catparse table tbody tr td {
+    padding: 10px 0;
+}
+
+#sopt_menu {
+    z-index: 1999999999999;
+}
+
+.word-icon {
+    display: inline-block;
+    background: #F98400;
+    width: 18px;
+    text-align: center;
+    color: #fff;
+    line-height: 17px;
+    font-weight: 400;
+    border-radius: 3px;
+    background-clip: padding-box;
+}
+
+/*
+.ttmpl-box.wrapper {
+    position: fixed;
+    z-index: 11111111111;
+    width: 300px;
+    min-width: 600px;
+    left: 289px;
+    top: 124px;
+}
+*/
+
+.ibox-content .form-group {
+    overflow: hidden;
+}
+
+body label > .btn-group,
+body.style-2018 .btn-group {
+    overflow: initial;
+}
+
+.roll-box {
+    display: block;
+    min-width: 450px;
+    width: 100%;
+    height: 120px;
+    overflow-y: scroll;
+}
+
+.r-time {
+    margin: 0 15px;
+}
+
+.r-name {
+    display: inline-block;
+    width: 160px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.r-time {
+    font-size: 12px;
+}
+
+.bbtn {
+    border: 1px solid #e6e6e6;
+    outline: 0 !important;
+    margin: 0 5px;
+}
+
+.area-li-a {
+    display: block;
+    padding: 5px 0;
+}
+
+button.bbtn.btn-ssm {
+    font-size: 12px;
+    padding: 2px 3px;
+    border-radius: 3px;
+    margin: 0 1px;
+}
+
+.spiner-loading {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 111111100;
+}
+
+.spiner-example {
+    position: relative;
+    top: 45%;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.add-kds-box {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.add-kds-box > [class*='col-'] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.kds-content {
+    display: block;
+    margin: 0;
+    width: 100%;
+    height: 400px;
+    line-height: 23px;
+    border: none;
+    resize: none;
+}
+
+.kds-content {
+    background: #ffffff;
+    color: #000000;
+}
+
+.bbtn-primary {
+    background: #1ab394;
+    color: #ffffff;
+    outline: none;
+    border: none;
+}
+
+/**=================**/
+.layui-layer-page {
+    position: fixed;
+}
+
+.calendarmy {
+
+    width: 239px;
+    margin-left: 10px;
+}
+
+.calendarmy.left {
+    float: left;
+}
+
+.calendarmy.right {
+    float: right;
+}
+
+body .daterangepicker .ranges {
+    width: 200px;
+    float: left;
+}
+
+.daterangepicker.show-calendar {
+    width: 720px;
+}
+
+body .daterangepicker .ranges .input-mini {
+    width: 80px;
+}
+
+body .daterangepicker .ranges {
+    float: left;
+}
+
+/**=========end========**/
+.sc-glt label {
+    padding-right: 5px;
+    margin: 0;
+}
+
+.pjeo-dropdown {
+    background: #f98400 !important;
+    color: #ffffff !important;
+}
+
+ul.pjeo-dropdown-menu li {
+    background: #ffffff;
+    padding-left: 10px;
+}
+
+ul.pjeo-dropdown-menu li:hover {
+    background: #eeeeee;
+}
+
+ul.pjeo-dropdown-menu li label {
+    display: block;
+    margin: 0;
+    padding: 8px 4px;
+}
+
+ul.pjeo-dropdown-menu li button {
+    margin: 8px 4px;
+}
+
+.pjeo-dropdown-box {
+    position: relative;
+    height: 0;
+    top: 6px;
+}
+
+ul.pjeo-dropdown-menu {
+    border: 1px solid #dcdcdc;
+}
+
+.pjb2 {
+    padding: 2px;
+}
+
+/**美化tab框**/
+.modal-header {
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.nav-cc-content .modal-body {
+    margin: -2px 15px 15px 15px;
+    border: 1px solid #e6e6e6;
+}
+
+body .modal-header .btn-group .btn {
+    border-bottom: none;
+}
+
+body .modal-header .btn-group .btn:hover {
+    border-bottom: none;
+}
+
+body .modal-header .btn-group .btn.current {
+    color: #ffffff !important;
+    background: #F98400 !important;
+}
+
+body .sc-group button.form-control:hover,
+body .sc-group label .sc-glt:hover,
+body .sc-group a.form-control:hover {
+    color: #F98400;
+}
+
+i.ff-fa {
+    font-size: 15px;
+    vertical-align: middle;
+    margin-right: 6px;
+
+}
+i.ff-fa2 {
+    font-size: 18px;
+    cursor: pointer;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+body .sc-group .dropdown-toggle.btn-default {
+    color: #555555 !important;
+}
+
+.btn-default.active.focus,
+.btn-default.active:focus, .btn-default.active:hover,
+.btn-default:active.focus, .btn-default:active:focus,
+.btn-default:active:hover,
+.open > .dropdown-toggle.btn-default.focus,
+.open > .dropdown-toggle.btn-default:focus,
+.open > .dropdown-toggle.btn-default:hover,
+body .sc-group .dropdown-toggle.btn-default:hover {
+    background-color: #ffffff;
+    color: #F98400 !important;
+}
+
+.input-tt-group {
+    width: 458px;
+    vertical-align: middle;
+    display: inline-table;
+}
+
+.ibox-content {
+    padding: 15px;
+}
+
+body .modal-header .btn-group span.nav-bbtn {
+    color: #666666 !important;
+}
+
+/**美化tab框 end**/
+
+.cll-ll {
+    padding: 7px 0;
+}
+
+.nnew-icon {
+    padding: 0 5px;
+    background: #F98400;
+    text-align: center;
+    color: #fff;
+    line-height: 17px;
+    font-weight: 400;
+    border-radius: 3px;
+    background-clip: padding-box;
+}
+
+.btn-orange .nnew-icon {
+    background: #FFF;
+    color: #F98400;
+}
+
+.org-color {
+    color: #ffffff!important;
+    background: #febf4a!important;
+}
+
+.red-color {
+    color: #ffffff!important;
+    background: #e82a2a!important;
+}
+
+body .sc-group .dropdown-toggle.btn-default.org-color {
+    color: #ffffff!important;
+    background: #febf4a!important;
+}
+
+.ss-search_box .alert {
+    padding: 8px 15px;
+}
+
+.cur-ss{
+    margin-left: 40px;color: #e82a2a;
+}

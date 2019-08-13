@@ -1,0 +1,12 @@
+自动审核执行文件/*
+__pycache__/*
+Chrome/*
+selenum/*
+阿明工具/*
+*.exe
+abc123.py
+*ini
+tong1yong4.py
+currency.py
+*.txt
+*.jpg

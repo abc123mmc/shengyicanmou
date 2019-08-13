@@ -1,0 +1,17 @@
+.aming input,.aming select{
+    border-style: inset;
+}
+.aming .dt-button{
+    line-height: 10px !important;
+}
+.aming-center{
+    text-align:center
+}
+.aming-hidden{
+    text-overflow:ellipsis;
+    /* overflow:visible; */
+    white-space:nowrap;
+    max-width:200px;
+    overflow: hidden;
+}
+.aming-hidden p{overflow: hidden;text-overflow:ellipsis;}

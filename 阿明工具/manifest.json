@@ -1,0 +1,30 @@
+{
+    "manifest_version": 2,
+    "name": "阿明工具",
+    "version": "6.0.0",
+    "description": "生意参谋指数转换，数据分析，数据导出；直通车数据优化；淘宝辅助；",
+    "icons": {
+        "16": "images/icon16.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+    },
+    "browser_action": {
+        "default_icon": {
+            "19": "images/icon19.png"
+        },
+        "default_title": "阿明工具",
+        "default_popup": "popup.html"
+    },
+    "homepage_url": "http://www.zhishuchacha.com",
+	"content_scripts": [
+        {
+            "matches": ["https://*.taobao.com/*","https://*.tmall.com/*"],
+            "js": ["js/jquery.min.js","js/layer.js","js/init.js"],
+            "css": ["css/layer.css"]
+        }
+    ],
+	"permissions": [
+        "contextMenus", "tabs", "notifications", "webRequest", "webRequestBlocking", "storage", "http://*/*", "https://*/*" 
+    ],
+    "web_accessible_resources": [ "css/*", "js/*", "images/*","debug/*" ,"layui/*"]
+}
